@@ -1,13 +1,13 @@
 # Operating system
 os:
-  - windows
+  - linux
 
 # Required to run your project under the correct environment.
-language: sh
+language: php
 
-before_install:
-  - choco install php-service --version=7.4.1
-  - export PATH=/c/php:$PATH
+# Versions of PHP you want your project run with.
+php:
+ - 7.4
 
 # Matrix
 matrix:
@@ -19,9 +19,6 @@ matrix:
 # Run script
 script:
 - php index.php
-
-allow_failures:
-  - php: nightly
 
 # notifications
 notifications:
