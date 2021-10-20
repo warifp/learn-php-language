@@ -1,4 +1,9 @@
-# Learn PHP Language
+<div style="text-align:center;">
+<h1 style="font-weight: bold">Learn PHP Language</h1>
+
+[![Build Status](https://app.travis-ci.com/warifp/learn-php-language.svg?branch=main)](https://app.travis-ci.com/warifp/learn-php-language)
+
+</div>
 
 Learn the php language ecosystem by learning Git System
 
