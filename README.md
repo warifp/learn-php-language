@@ -5,7 +5,18 @@
 
 </div>
 
-Learn the php language ecosystem by learning Git System
+Learn about the php language ecosystem by studying the Git System.
+Learn Git with standard tasks from Hacktoberfest.
+
+## Tips
+
+#### If you are going to create a Hello World, with a file name:
+
+    hello-world-{{ YOUR GITHUB USERNAME}}.php
+
+#### If there is a duplicate file name:
+
+    {{ FILE NAME }}-{{ YOUR GITHUB USERNAME}}.php
 
 ## Donation
 
