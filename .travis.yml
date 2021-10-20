@@ -7,7 +7,7 @@ language: sh
 
 before_install:
   - choco install php-service --version=7.4.1
-  - export PATH=/c/tools/php:$PATH
+  - export PATH=/c/php:$PATH
 
 # Matrix
 matrix:
@@ -19,6 +19,9 @@ matrix:
 # Run script
 script:
 - php index.php
+
+allow_failures:
+  - php: nightly
 
 # notifications
 notifications:
