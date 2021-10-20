@@ -1,6 +1,6 @@
 # Operating system
 os:
-  - linux
+  - windows
 
 # Required to run your project under the correct environment.
 language: php
@@ -18,7 +18,7 @@ matrix:
 
 # Run script
 script:
-- php helloworld.php
+- php index.php
 
 # notifications
 notifications:
